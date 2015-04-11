@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		0A71CFF61AD9840600F39226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A71CFF51AD9840600F39226 /* main.m */; };
 		0A71CFF91AD9840600F39226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A71CFF81AD9840600F39226 /* AppDelegate.m */; };
-		0A71CFFC1AD9840600F39226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A71CFFB1AD9840600F39226 /* ViewController.m */; };
 		0A71CFFF1AD9840600F39226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71CFFD1AD9840600F39226 /* Main.storyboard */; };
 		0A71D0011AD9840600F39226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A71D0001AD9840600F39226 /* Images.xcassets */; };
 		0A71D0041AD9840600F39226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A71D0021AD9840600F39226 /* LaunchScreen.xib */; };
 		0A71D0101AD9840600F39226 /* UKTopFourtyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A71D00F1AD9840600F39226 /* UKTopFourtyTests.m */; };
+		0AC0461A1AD9865C0073BC54 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC046191AD9865C0073BC54 /* MyTableViewController.m */; };
+		0AC0461D1AD98E020073BC54 /* UKTopFourtyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0461C1AD98E020073BC54 /* UKTopFourtyModel.m */; };
+		0AC046201AD998740073BC54 /* MusicVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC0461F1AD998740073BC54 /* MusicVideo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		0A71CFF51AD9840600F39226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A71CFF71AD9840600F39226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A71CFF81AD9840600F39226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A71CFFA1AD9840600F39226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A71CFFB1AD9840600F39226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A71CFFE1AD9840600F39226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A71D0001AD9840600F39226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0A71D0031AD9840600F39226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0A71D0091AD9840600F39226 /* UKTopFourtyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UKTopFourtyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A71D00E1AD9840600F39226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A71D00F1AD9840600F39226 /* UKTopFourtyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UKTopFourtyTests.m; sourceTree = "<group>"; };
+		0AC046181AD9865C0073BC54 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		0AC046191AD9865C0073BC54 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		0AC0461B1AD98E020073BC54 /* UKTopFourtyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKTopFourtyModel.h; sourceTree = "<group>"; };
+		0AC0461C1AD98E020073BC54 /* UKTopFourtyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKTopFourtyModel.m; sourceTree = "<group>"; };
+		0AC0461E1AD998740073BC54 /* MusicVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicVideo.h; sourceTree = "<group>"; };
+		0AC0461F1AD998740073BC54 /* MusicVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicVideo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				0A71CFF71AD9840600F39226 /* AppDelegate.h */,
 				0A71CFF81AD9840600F39226 /* AppDelegate.m */,
-				0A71CFFA1AD9840600F39226 /* ViewController.h */,
-				0A71CFFB1AD9840600F39226 /* ViewController.m */,
 				0A71CFFD1AD9840600F39226 /* Main.storyboard */,
+				0AC0461B1AD98E020073BC54 /* UKTopFourtyModel.h */,
+				0AC0461C1AD98E020073BC54 /* UKTopFourtyModel.m */,
+				0AC0461E1AD998740073BC54 /* MusicVideo.h */,
+				0AC0461F1AD998740073BC54 /* MusicVideo.m */,
+				0AC046181AD9865C0073BC54 /* MyTableViewController.h */,
+				0AC046191AD9865C0073BC54 /* MyTableViewController.m */,
 				0A71D0001AD9840600F39226 /* Images.xcassets */,
 				0A71D0021AD9840600F39226 /* LaunchScreen.xib */,
 				0A71CFF31AD9840600F39226 /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A71CFFC1AD9840600F39226 /* ViewController.m in Sources */,
 				0A71CFF91AD9840600F39226 /* AppDelegate.m in Sources */,
+				0AC046201AD998740073BC54 /* MusicVideo.m in Sources */,
 				0A71CFF61AD9840600F39226 /* main.m in Sources */,
+				0AC0461D1AD98E020073BC54 /* UKTopFourtyModel.m in Sources */,
+				0AC0461A1AD9865C0073BC54 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				0A71D0151AD9840600F39226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A71D0161AD9840600F39226 /* Build configuration list for PBXNativeTarget "UKTopFourtyTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				0A71D0181AD9840600F39226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
